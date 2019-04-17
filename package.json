@@ -1,0 +1,39 @@
+{
+  "name": "is-sorted-ts",
+  "version": "1.0.0",
+  "description": "A small module to check if an Array is sorted",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "jest": {
+    "preset": "ts-jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nbili/is-sorted-ts.git"
+  },
+  "keywords": [
+    "typescript",
+    "array",
+    "is-sorted",
+    "sorting",
+    "array"
+  ],
+  "author": "nbili",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nbili/is-sorted-ts/issues"
+  },
+  "homepage": "https://github.com/nbili/is-sorted-ts#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "@types/node": "^11.13.4",
+    "jest": "^24.7.1",
+    "ts-jest": "^24.0.2"
+  },
+  "dependencies": {
+    "typescript": "^3.4.3"
+  }
+}
