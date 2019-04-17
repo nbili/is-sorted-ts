@@ -1,8 +1,8 @@
 {
   "name": "is-sorted-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A small module to check if an Array is sorted",
-  "main": "./dist/index.js",
+  "main": "./dist/is-sorted-ts.js",
   "scripts": {
     "test": "jest",
     "build": "tsc"
