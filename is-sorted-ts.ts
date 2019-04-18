@@ -13,4 +13,4 @@ function checksort(array: number[], comparator?: (a: number, b: number) => numbe
   return true
 }
 
-module.exports = checksort
+export = checksort
