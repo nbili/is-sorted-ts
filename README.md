@@ -13,5 +13,9 @@ $ npm install --save is-sorted-ts
 ## Usage
 
 ```js
-const 
+const isSorted = require('is-sorted-ts')
+
+console.log(isSorted([])) // true
+console.log(isSorted([1, 2, 3])) // true
+console.log(isSorted([3, 2, 1], (a, b) => b - a)) // false 
 ```
