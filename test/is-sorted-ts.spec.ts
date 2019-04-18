@@ -1,4 +1,4 @@
-import isSorted from '../is-sorted-ts'
+const isSorted = require('../is-sorted-ts')
 
 describe('is-sorted-ts', () => {
 
@@ -31,19 +31,19 @@ describe('is-sorted-ts', () => {
   })
 
   test(`return true for [5, 4, 3, 1, 1] with comparator`, () => {
-    expect(isSorted([5, 4, 3, 1, 1], (a, b) => b - a)).toBe(true)
+    expect(isSorted([5, 4, 3, 1, 1], (a: number, b: number) => b - a)).toBe(true)
   })
 
   test(`return true for [5, 4, 3, 2, 1] with comparator`, () => {
-    expect(isSorted([5, 4, 3, 2, 1], (a, b) => b - a)).toBe(true)
+    expect(isSorted([5, 4, 3, 2, 1], (a: number, b: number) => b - a)).toBe(true)
   })
 
   test(`return false for [1, 5, 2, 3, 4]`, () => {
-    expect(isSorted([1, 5, 2, 3, 4], (a, b) => b - a)).toBe(false)
+    expect(isSorted([1, 5, 2, 3, 4], (a: number, b: number) => b - a)).toBe(false)
   })
 
   test(`return false for [5, 4, 3, 1, 2] with comparator`, () => {
-    expect(isSorted([5, 4, 3, 1, 2], (a, b) => b - a)).toBe(false)
+    expect(isSorted([5, 4, 3, 1, 2], (a: number, b: number) => b - a)).toBe(false)
   })
 
 })

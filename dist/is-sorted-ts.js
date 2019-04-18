@@ -1,5 +1,4 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 function defaultComparator(a, b) {
     return a - b;
 }
@@ -13,4 +12,4 @@ function checksort(array, comparator) {
     }
     return true;
 }
-exports.default = checksort;
+module.exports = checksort;
